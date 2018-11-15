@@ -26,5 +26,6 @@ repositories {
 
 dependencies {
 	implementation('org.springframework.boot:spring-boot-starter-web')
+	compile('javax.persistence:javax.persistence-api')
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
